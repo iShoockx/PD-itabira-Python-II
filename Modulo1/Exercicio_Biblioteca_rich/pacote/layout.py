@@ -19,7 +19,7 @@ def separador_coluna(texto1,texto2,isarquivo=False):
         Se True, o texto1 é um caminho para arquivo, se False, é um texto
         
     Returns
-    -------
+    ----------
     Mensagem no terminal    
     """
 

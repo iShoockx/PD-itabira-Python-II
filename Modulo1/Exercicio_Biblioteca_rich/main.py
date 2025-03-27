@@ -43,25 +43,3 @@ else:
     resultado = funcao(args.texto1,args.arquivo)
 
 print(resultado)
-# # Testes layout
-# layout.separador_coluna("Teste de Texto 1","Teste de Texto 2")
-
-# layout.separador_linha("Textos/Texto1.txt","Textos/Texto2.txt",True)
-
-
-# # Testes painel
-# painel.exibir("Teste de Texto 1")
-
-# painel.exibir_com_titulo("Textos/Texto1.txt","Titulo teste",True)
-
-# painel.mudar_box("Teste de Texto 1",HEAVY)
-
-# # Testes progresso
-# progresso.barra_de_progresso_texto("Teste de Texto 1")
-
-# progresso.barra_de_progresso_dupla("Textos/Texto1.txt","Textos/Texto2.txt",True)
-
-# # Testes estilo
-# estilo.muda_cor_texto("Teste de Texto 1",False,"red")
-
-# estilo.texto_com_estilo("Teste de Texto 1",False,"italic")
