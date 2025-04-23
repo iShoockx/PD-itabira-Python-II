@@ -18,7 +18,7 @@ def criar_labirinto(w,h): #  largura e altura do labirinto
         ---------
         hor : list
             lista de paredes horizontais do labirinto (+--)
-        ver : list
+        ver : listswsd
             lista de paredes verticais do labirinto (|  )
     """
     
@@ -26,7 +26,6 @@ def criar_labirinto(w,h): #  largura e altura do labirinto
     # Delimitada por uma linha/coluna com todos visitados (fronteira)
     # Sofre overflow nos índices negativos
     vis = [[0] * w + [1] for _ in range(h)] + [[1] * (w + 1)] 
-    
     
     # Linhas contendo as células e linhas entre-células
     # Inicia-se com todas as células disjuntas (paredes entre todas elas)

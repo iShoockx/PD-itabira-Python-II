@@ -166,7 +166,7 @@ def selecionar_dificuldade(opcao):
     if opcao == 1:
         width = 8
         height = 4
-        pontos = 25
+        pontos = 26
     elif opcao == 2:
         width = 16
         height = 8
@@ -174,7 +174,7 @@ def selecionar_dificuldade(opcao):
     elif opcao == 3:
         width=32
         height=16
-        pontos = 250
+        pontos = 400
     else:
         print("Erro  use as opçoes(1 - Facil,2 - Medio, 3 - Dificil")
         sys.exit()
